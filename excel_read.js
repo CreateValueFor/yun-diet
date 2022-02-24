@@ -61,6 +61,7 @@ const processRaw = (groupedRaw) => {
       initOrder.종료일 = "설정"
       initOrder.상품명 = custom.serviceNameFormatter(item.상품명)
 
+
     })
     totalOrder.push(initOrder)
     initOrder = {}

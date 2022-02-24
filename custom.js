@@ -21,7 +21,10 @@ const serviceNameFormatter = (service) => {
     }
 }
 
-const proteinValueFormatter = () => {
+const proteinValueFormatter = (service) => {
+    switch (service) {
+
+    }
 
 }
 
